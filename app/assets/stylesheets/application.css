@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet');
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-weight: bold;
+}
+
+input{
+  text-align: center;
+}
+
+
+p{
+  border-left: 1px solid lightgrey;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
